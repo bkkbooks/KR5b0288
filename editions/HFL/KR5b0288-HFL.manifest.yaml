@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0288/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0288/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上三辟五解祕法
+  date: '2015-08-29 00:15:45.394606'
+  source:
+    repository: kanripo
+    path: KR5b0288
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0288_000-HFL.yaml, hash: 'sha256:b860180fbc8323273e36942000da6fee040a34f07d732b33637a9f7871686706'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0288_000-HFL.markers.yaml, hash: 'sha256:bbe1d3c81c7c987cb401dfa58a9cd1d219c00e829e5e6909b2ddacd91bcc79e5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0288_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3505
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:68276ed9fc26c7d699902094c80a59429f5a5661b7515394234d7b9b767fdfb0
